@@ -1,3 +1,12 @@
+@import url("../vendor/normalize.css");
+@import url("../vendor/fonts/fonts.css");
+@import url("../blocks/header.css");
+@import url("../blocks/recipes.css");
+@import url("../blocks/reservation.css");
+@import url("../blocks/menu.css");
+@import url("../blocks/about.css");
+@import url("../blocks/footer.css");
+
 * {
   padding: 0;
   margin: 0;
@@ -144,7 +153,7 @@
   border: none;
 }
 
-.recipes__video_caption {
+.recipes__video-caption {
   display: flex;
   justify-content: space-between;
   margin-top: 24px;
