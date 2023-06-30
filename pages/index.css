@@ -251,3 +251,29 @@
 .form__checkbox:checked {
   background: url(../images/check.svg) no-repeat 0 0 #2f80ed;
 }
+
+.menu {
+  background: url(../images/background_menu.svg) no-repeat 0 0 #fff;
+  background-size: cover;
+}
+
+.menu__title {
+}
+
+.menu__subtitle {
+}
+
+.menu__cards {
+}
+
+.card {
+}
+
+.card__title {
+}
+
+.card__list-item {
+}
+
+.card__list-divider {
+}
