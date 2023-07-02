@@ -1,0 +1,29 @@
+@import url("../vendor/normalize.css");
+@import url("../vendor/fonts/fonts.css");
+
+.card {
+  width: 540px;
+}
+
+.card__list {
+  list-style-type: none;
+}
+
+.card__title {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+
+.card__list-item {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  margin-bottom: 16px;
+}
+
+.card__list-divider {
+  flex-grow: 0.95;
+  border-bottom: 1px solid #000;
+}
