@@ -21,7 +21,7 @@
 }
 
 .about__title {
-  width: 251px;
+  max-width: 251px;
   margin: 100px 0 0;
   font-size: 44px;
   line-height: 52px;
@@ -31,7 +31,7 @@
 }
 
 .about__content {
-  width: 660px;
+  max-width: 660px;
   display: flex;
   flex-direction: column;
   gap: 20px;

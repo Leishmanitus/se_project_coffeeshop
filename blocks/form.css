@@ -52,7 +52,7 @@
   box-sizing: border-box;
   border-radius: 4px;
   border: none;
-  max-width: 385px;
+  width: 385px;
   height: 60px;
   background-color: #2f80ed;
   margin-bottom: 32px;
