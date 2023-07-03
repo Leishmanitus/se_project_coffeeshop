@@ -1,6 +1,3 @@
-@import url("../vendor/normalize.css");
-@import url("../vendor/fonts/fonts.css");
-
 .recipes {
   display: flex;
   flex-direction: column;
@@ -30,13 +27,10 @@
 .recipes__videos {
   display: flex;
   justify-content: center;
-  gap: 40px;
-}
-
-.recipes__list {
-  list-style-type: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  gap: 40px;
+  list-style-type: none;
 }
 
 .recipes__iframe {

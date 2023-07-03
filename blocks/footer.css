@@ -1,6 +1,3 @@
-@import url("../vendor/normalize.css");
-@import url("../vendor/fonts/fonts.css");
-
 .footer {
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
   display: flex;
