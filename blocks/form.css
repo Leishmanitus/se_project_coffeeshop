@@ -26,12 +26,13 @@
 .form__label_type_checkbox {
   display: flex;
   align-items: center;
+  margin-bottom: 0;
 }
 
 .form__input {
   box-sizing: border-box;
   border-radius: 4px;
-  border-color: #838383;
+  border: 2px solid #838383;
   margin-bottom: 32px;
   font-size: 20px;
   line-height: 30px;
@@ -52,10 +53,14 @@
 .form__button {
   box-sizing: border-box;
   border-radius: 4px;
+  border: 2px solid #2f80ed;
   width: 385px;
   height: 60px;
   background-color: #2f80ed;
   margin-bottom: 32px;
+  padding: 0;
+  cursor: pointer;
+  color: #fff;
   font-size: 16px;
   line-height: 20px;
   font-weight: 500;
@@ -71,6 +76,7 @@
   width: 20px;
   height: 20px;
   margin-right: 12px;
+  cursor: pointer;
 }
 
 .form__checkbox:checked {
